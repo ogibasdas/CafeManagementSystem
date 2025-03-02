@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRApi", "SignalRApi\SignalRApi.csproj", "{FC16CB9C-8C7C-449B-A2D6-AFB8E1E6145F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMApi", "OMApi\OMApi.csproj", "{FC16CB9C-8C7C-449B-A2D6-AFB8E1E6145F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebUI", "SignalRWebUI\SignalRWebUI.csproj", "{59F32582-01AA-41B7-A056-A12E91CE07AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMWebUI", "OMWebUI\OMWebUI.csproj", "{59F32582-01AA-41B7-A056-A12E91CE07AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.EntityLayer", "SignalR.EntityLayer\SignalR.EntityLayer.csproj", "{70DDE044-509C-4519-8E4B-2968D9543816}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OM.Entity", "OM.Entity\OM.Entity.csproj", "{70DDE044-509C-4519-8E4B-2968D9543816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.DataAccessLayer", "SignalR.DataAccessLayer\SignalR.DataAccessLayer.csproj", "{3C629EAC-9280-4518-8D68-157B3A1AB8DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OM.DataAccess", "OM.DataAccess\OM.DataAccess.csproj", "{3C629EAC-9280-4518-8D68-157B3A1AB8DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.DtoLayer", "SignalR.DtoLayer\SignalR.DtoLayer.csproj", "{70A9C205-3826-488F-A66A-96C5050EA0E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OM.Dto", "OM.Dto\OM.Dto.csproj", "{70A9C205-3826-488F-A66A-96C5050EA0E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.BusinessLayer", "SignalR.BusinessLayer\SignalR.BusinessLayer.csproj", "{F0DD1A4F-4586-48B9-9A0C-5CFE134D4671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OM.Business", "OM.Business\OM.Business.csproj", "{F0DD1A4F-4586-48B9-9A0C-5CFE134D4671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

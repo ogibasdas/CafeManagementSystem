@@ -1,4 +1,4 @@
-﻿namespace SignalR.EntityLayer.Entities
+﻿namespace OM.Entity.Entities
 {
     public class Discount
     {
