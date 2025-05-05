@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OM.DataAccess\OM.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,46 @@
+﻿using OM.Business.Abstract;
+using OM.DataAccess.Abstract;
+using OM.Entity.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OM.Business.Concrete
+{
+    public class SclMed : ISocialMediaService
+    {
+        private readonly ISocialMediaDal _socialMediaDal;
+
+        public SclMed(ISocialMediaDal socialMediaDal)
+        {
+            _socialMediaDal = socialMediaDal;
+        }
+
+        public void TAdd(SocialMedia entity)
+        {
+            _socialMediaDal.Add(entity);
+        }
+
+        public void TDelete(SocialMedia entity)
+        {
+            _socialMediaDal.Delete(entity);
+        }
+
+        public SocialMedia TGetByID(int id)
+        {
+            return _socialMediaDal.GetByID(id);
+        }
+
+        public List<SocialMedia> TGetListAll()
+        {
+            return _socialMediaDal.GetListAll();
+        }
+
+        public void TUpdate(SocialMedia entity)
+        {
+            _socialMediaDal.Update(entity);
+        }
+    }
+}

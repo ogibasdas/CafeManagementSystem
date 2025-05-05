@@ -8,12 +8,11 @@ namespace OM.Entity.Entities
 {
     public class Contact
     {
-        public int ContactID { get; set; }
+        public int Id { get; set; }
         public string Location { get; set; }
         public string Phone { get; set; }
-        public string Mail { get; set; }
+        public string EMail { get; set; }
         public string FooterDescription { get; set; }
-
 
 
 
